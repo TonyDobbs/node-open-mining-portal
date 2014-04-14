@@ -67,3 +67,9 @@ footer a{
 footer iframe{
     vertical-align: middle;
 }
+@media (max-width:1000px){
+    
+    #welcomeText{ font-size: 2.5em !important; text-align: center; margin: 50px 20px 10px 22px !important; }
+    #welcomeItems{ list-style-type: none; font-size: 1.3em; padding: 0 !important; margin: 0 0 0 22px !important; }
+    #welcomeItems > li{ margin: 35px !important; }
+}
